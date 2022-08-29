@@ -25,7 +25,7 @@ const PoliticsPage = () => {
               image={mainImage}
             />
           </div>
-          {/* second section of politics page */}
+          {/* second section of politics page xjkfk */}
           <div className="small-card-container">
             {PoliticsData2.map((item, index) => {
               return (
