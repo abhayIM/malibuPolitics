@@ -1,0 +1,46 @@
+
+
+.white {
+    color: white;
+    font-weight: 900;
+    font-size: 1.7em;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+.black {
+color: black;
+}
+
+.black-bold {
+    font-weight: 800;
+    color: black;
+}
+
+.paragraph {
+   font-size: 20px;
+   font-weight: 400px;
+   line-height: 1.5;
+}
+
+.headline {
+    margin:0;
+    padding: 0;
+    min-width: 42px;
+    max-width: 112px;
+    padding-bottom: .3em;
+
+}
+.border {
+    border-bottom : 5px solid #5F93F2;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+   
+  
+}
+
+@media only screen and (min-width: 479px) and (max-width: 768px) {
+   
+  
+}
