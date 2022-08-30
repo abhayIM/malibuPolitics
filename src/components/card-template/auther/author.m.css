@@ -1,0 +1,12 @@
+.author-name {
+    font-size: 1em;
+    font-weight: 300;
+    opacity: 1;
+    margin: .25em 0;
+}
+.gray {
+    color: #818181;
+}
+.white {
+    color:white;
+}

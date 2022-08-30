@@ -3,7 +3,7 @@ export const PoliticsData = [
     image: "",
     headline:
       "Lin-Manuel Miranda says Donald Trump spreading 'a virulent strain of a virus'",
-    auther: "",
+    auther: "Alice doe",
   },
   {
     image: "",
@@ -21,7 +21,7 @@ export const PoliticsData = [
     image: "",
     headline:
       "Lin-Manuel Miranda says Donald Trump spreading 'a virulent strain of a virus'",
-    auther: "",
+    auther: "Jonnathan Doe",
   },
 ];
 

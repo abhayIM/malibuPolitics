@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import "./headline.m.css";
 
 const Headline = ({ text, headlineColor, fontsBold, type, border }) => {
-  console.log(border);
   return (
     <div>
       {type === "Headline" && (
@@ -21,6 +20,7 @@ Headline.propTypes = {
   color: PropTypes.string,
   fontsBold: PropTypes.string,
   type: PropTypes.string,
+  headlineColor: PropTypes.string,
 };
 
 export default Headline;

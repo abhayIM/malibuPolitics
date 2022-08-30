@@ -51,7 +51,7 @@ const PoliticsPage = () => {
                     fontsBold={"black-bold"}
                     // backgroundWhite={true}
                     headlineColor={"black"}
-                    auther={"John Doe"}
+                    auther={item.auther}
                     headline={item?.headline}
                     image={item?.image}
                   />

@@ -1,13 +1,14 @@
 
 .politics-card-wrapper-bg {
     background-color: white;
-    /* width: 400px; */
     width: 26vw;
+    box-shadow:
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+            100px 100px 80px rgba(0, 0, 0, 0.03);
 }
 
 .politics-card-wrapper {
    width: 26vw;
-    /* width: 400px; */
 }
 
 .politics-card-headline-auther {
@@ -24,12 +25,12 @@
 @media only screen and (min-width: 300px) and (max-width: 375px) {
     .politics-card-wrapper {
         width: 91vw;
-        /* width: 355px; */
-        /* background-color: white; */
     }
     .politics-card-wrapper-bg {
+        box-shadow:
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+            100px 100px 80px rgba(0, 0, 0, 0.03);
         width: 91vw;
-        /* width: 355px; */
         background-color: white;
     }
     .politics-card-headline-auther {
@@ -45,13 +46,13 @@
 @media only screen and (min-width: 376px) and (max-width: 424px) {
     .politics-card-wrapper {
         width: 91vw;
-        /* width: 360px; */
-        /* background-color: white; */
     }
     .politics-card-wrapper-bg {
         width: 91vw;
-        /* width: 360px; */
         background-color: white;
+        box-shadow:
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+            100px 100px 80px rgba(0, 0, 0, 0.03);
     }
     .politics-card-headline-auther {
         padding: 0 2em;
@@ -64,20 +65,15 @@
   
 }
 @media only screen and (min-width: 425px) and (max-width: 460px) {
-    /* .main-image {
-        width: 400px;
-        
-       
-    } */
     .politics-card-wrapper {
         width: 91vw;
-        /* width: 360px; */
-        /* background-color: white; */
     }
     .politics-card-wrapper-bg {
         width: 91vw;
-        /* width: 360px; */
         background-color: white;
+        box-shadow:
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+            100px 100px 80px rgba(0, 0, 0, 0.03);
     }
     .politics-card-headline-auther {
         padding: 0 2em;
@@ -93,12 +89,14 @@
 @media only screen and (min-width: 426px) and (max-width: 768px) {
     .politics-card-wrapper {
         width: 45vw;
-        /* background-color: white; */
        
     }
     .politics-card-wrapper-bg {
         width: 45vw;
         background-color: white;
+        box-shadow:
+            12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+            100px 100px 80px rgba(0, 0, 0, 0.03);
     }
     .politics-card-headline-auther {
         padding: 0 2em;
@@ -113,8 +111,6 @@
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
     .politics-card-wrapper {
         width: 45vw;
-        /* background-color: white; */
-       
     }
     .politics-card-wrapper-bg {
         width: 45vw;

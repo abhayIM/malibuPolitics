@@ -2,12 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./responsive-image.m.css";
 
-const ResponsiveImage = ({ horizontal, src, height }) => {
+const ResponsiveImage = ({ src, height }) => {
   return (
     <div>
       <img
         className={height ? ` main-image ${height} ` : "main-image"}
-        // height={height ? height : ""}
         src={src}
         alt="img"
       />

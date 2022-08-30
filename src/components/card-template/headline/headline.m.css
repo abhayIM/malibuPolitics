@@ -1,5 +1,4 @@
 
-
 .white {
     color: white;
     font-weight: 900;
@@ -33,14 +32,4 @@ color: black;
 }
 .border {
     border-bottom : 5px solid #5F93F2;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 479px) {
-   
-  
-}
-
-@media only screen and (min-width: 479px) and (max-width: 768px) {
-   
-  
 }
