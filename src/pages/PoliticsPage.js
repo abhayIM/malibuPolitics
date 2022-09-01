@@ -1,14 +1,12 @@
 import React from "react";
 import Headline from "../components/card-template/headline/Headline";
+import * as Asset from "../assets/index";
 import BigPoliticsCard from "../components/big-politics-card/BigPoliticsCard";
 import PoliticsCard from "../components/politics-card/PoliticsCard";
 import "./politics-page.m.css";
 import { PoliticsData, PoliticsData2 } from "../politics-data/PoliticsData";
 
 const PoliticsPage = () => {
-  const mainImage =
-    "https://images.unsplash.com/photo-1604595704321-f24afaa2fa6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80";
-  console.log("djdso", PoliticsData, PoliticsData2);
   return (
     <div className="politics-page-wrapper">
       <div>
@@ -22,7 +20,7 @@ const PoliticsPage = () => {
               headlineColor={"white"}
               auther={"John Doe"}
               headline={PoliticsData[0]?.headline}
-              image={mainImage}
+              image={Asset.DonaldTrump}
             />
           </div>
           {/* second section of politics page xjkfk */}
@@ -37,6 +35,7 @@ const PoliticsPage = () => {
                     auther={"John Doe"}
                     headline={item?.headline}
                     image={item?.image}
+                    size={"16"}
                   />
                 </div>
               );
@@ -54,6 +53,7 @@ const PoliticsPage = () => {
                     auther={item.auther}
                     headline={item?.headline}
                     image={item?.image}
+                    size={"12"}
                   />
                   {index < 3 && <div className="border-bottom"> </div>}
                 </div>

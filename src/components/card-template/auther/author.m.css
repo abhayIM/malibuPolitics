@@ -1,12 +1,20 @@
 .author-name {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 500;
     opacity: 1;
     margin: .25em 0;
+    padding: .2em 0em
+}
+.font-size-16 {
+    font-size: 16px;
 }
 .gray {
     color: #818181;
 }
 .white {
     color:white;
+}
+
+.font-size-12 {
+ font-size: 14px;
 }

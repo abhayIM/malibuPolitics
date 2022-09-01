@@ -13,6 +13,7 @@ const PoliticsCard = ({
   headlineColor,
   backgroundWhite,
   fontsBold,
+  size,
 }) => {
   return (
     <div>
@@ -35,7 +36,7 @@ const PoliticsCard = ({
             text={headline}
             headlineColor={headlineColor}
           />
-          <Auther name={auther} color={"gray"} />
+          <Auther size={size} name={auther} color={"gray"} />
         </div>
       </div>
     </div>

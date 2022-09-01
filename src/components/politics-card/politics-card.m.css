@@ -16,7 +16,7 @@
     padding-bottom: 1em;
 }
 .politics-card-headline-auther-top {
-    padding: 0.5em 2em;
+     padding: 0.5em 2em; 
     padding-bottom: 1em;
     
 }
@@ -99,7 +99,7 @@
             100px 100px 80px rgba(0, 0, 0, 0.03);
     }
     .politics-card-headline-auther {
-        padding: 0 2em;
+        padding: 0 1.2em;
         padding-bottom: 1em;
     }
     .politics-card-headline-auther-top {
@@ -117,7 +117,7 @@
         background-color: white;
     }
     .politics-card-headline-auther {
-        padding: 0 2em;
+        padding: 0 1.2em;
         padding-bottom: 1em;
     }
     .politics-card-headline-auther-top {
