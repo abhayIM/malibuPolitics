@@ -2,10 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./author.m.css";
 
-const Auther = ({ name, color, size }) => {
+const Auther = ({ name, color, textVarient }) => {
   return (
     <div>
-      <p className={`author-name font-size-${size} ${color} `}> {name}</p>
+      <p className={`author-name font-size-${textVarient} ${color} `}>
+        {" "}
+        {name}
+      </p>
     </div>
   );
 };
@@ -13,7 +16,7 @@ const Auther = ({ name, color, size }) => {
 Auther.propTypes = {
   name: PropTypes.string,
   color: PropTypes.string,
-  size: PropTypes.string,
+  textVarient: PropTypes.string,
 };
 
 export default Auther;

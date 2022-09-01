@@ -13,7 +13,8 @@ const PoliticsCard = ({
   headlineColor,
   backgroundWhite,
   fontsBold,
-  size,
+  textVarient,
+  thirdSection,
 }) => {
   return (
     <div>
@@ -27,6 +28,8 @@ const PoliticsCard = ({
           className={
             image
               ? "politics-card-headline-auther"
+              : thirdSection
+              ? "third-section-card"
               : "politics-card-headline-auther-top"
           }
         >
@@ -36,7 +39,7 @@ const PoliticsCard = ({
             text={headline}
             headlineColor={headlineColor}
           />
-          <Auther size={size} name={auther} color={"gray"} />
+          <Auther textVarient={textVarient} name={auther} color={"gray"} />
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ const BigPoliticsCard = ({ image, headline, auther, headlineColor }) => {
                 text={headline}
                 headlineColor={headlineColor}
               />
-              <Auther size={"16"} name={auther} color={"white"} />
+              <Auther textVarient={"16"} name={auther} color={"white"} />
             </div>
           </div>
         </div>

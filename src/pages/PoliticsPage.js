@@ -35,7 +35,7 @@ const PoliticsPage = () => {
                     auther={"John Doe"}
                     headline={item?.headline}
                     image={item?.image}
-                    size={"16"}
+                    textVarient={"16"}
                   />
                 </div>
               );
@@ -48,14 +48,16 @@ const PoliticsPage = () => {
                 <div key={index} className="small-cards">
                   <PoliticsCard
                     fontsBold={"black-bold"}
-                    // backgroundWhite={true}
                     headlineColor={"black"}
                     auther={item.auther}
                     headline={item?.headline}
                     image={item?.image}
-                    size={"12"}
+                    textVarient={"14"}
+                    thirdSection={true}
                   />
-                  {index < 3 && <div className="border-bottom"> </div>}
+                  {index < PoliticsData.length - 1 && (
+                    <div className="border-bottom"> </div>
+                  )}
                 </div>
               );
             })}
