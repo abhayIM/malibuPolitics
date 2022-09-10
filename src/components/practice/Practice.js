@@ -1,5 +1,6 @@
 import React, { useEffect, memo, useState } from "react";
 import MultipleDropDown from "./MultipleDropDown";
+import PracticeAlpha from "./PracticeAlpha";
 import { sumOfEven, generateRandomNumber } from "./utility";
 
 const Practice = () => {
@@ -29,6 +30,7 @@ const Practice = () => {
       //   //   backgroundColor: "red",
       // }}
       >
+        <PracticeAlpha />
         <MultipleDropDown />
 
         {/* <div

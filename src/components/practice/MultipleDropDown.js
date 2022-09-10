@@ -27,13 +27,15 @@ const MultipleDropDown = () => {
   useEffect(() => {
     getCountries();
   }, []);
+  const styles = { width: "25vw", padding: ".5em", margin: "1em" };
+
   console.log({ singleCountry, cityData });
   console.log("iid", countryData);
 
   return (
     <div>
       <div className="multiple-dd-wrapper">
-        <select onChange={(e) => handleSingleCountry(e)}>
+        <select style={styles} onChange={(e) => handleSingleCountry(e)}>
           <option defaultValue={""}>Select Countries</option>
           {countryData &&
             countryData?.map((country, ind) => {
@@ -47,6 +49,7 @@ const MultipleDropDown = () => {
         </select>
 
         <select
+          style={styles}
           onChange={(e) => {
             setCities(e.target.value);
           }}
